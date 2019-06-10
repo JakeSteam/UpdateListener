@@ -13,8 +13,7 @@ class AppUpgradeReceiver : BroadcastReceiver() {
         if (context == null) {
             return
         }
-        Toast.makeText(context, "Updated to ${BuildConfig.VERSION_NAME}!", Toast.LENGTH_LONG).show()
+        Toast.makeText(context, "Updated to version #${BuildConfig.VERSION_CODE}!", Toast.LENGTH_LONG).show()
     }
-
 
 }
